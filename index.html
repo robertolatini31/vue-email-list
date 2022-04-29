@@ -9,7 +9,13 @@
 <body>
     
     <div id="app">
-
+        <h1>Vue email list</h1>
+        <div class="control" >
+            <ol>
+                <li v-for="email in emailGenerated">{{email}}</li>
+            </ol>
+        </div>
+        <!-- /.control -->
     </div>
     <!-- /#app -->
 
