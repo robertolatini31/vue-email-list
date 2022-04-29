@@ -10,7 +10,7 @@
     
     <div id="app">
         <h1>Vue email list</h1>
-        <div class="control" >
+        <div class="control" v-if="emailGenerated.length === 10">
             <ol>
                 <li v-for="email in emailGenerated">{{email}}</li>
             </ol>
